@@ -21,9 +21,11 @@ Key questions answered:
 
 # Dataset
 
-Dataset: US Accidents (2016–2023)
+Dataset: US Accidents (2016–2023) 
 
 Source: Kaggle
+
+Size: 3 GB (7.7 million)
 
 Country: United States
 
