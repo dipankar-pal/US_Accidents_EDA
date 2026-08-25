@@ -1,24 +1,25 @@
-US Accidents Exploratory Data Analysis (2016–2023)
+# US Accidents Exploratory Data Analysis (2016–2023)
+
 
 An end-to-end Exploratory Data Analysis (EDA) project on the US Accidents dataset. This project cleans a large accident dataset and explores patterns in accident severity, time, weather, road features, and geographic hotspots.
 
-Project Objective
+# Project Objective
 
 The goal is to find useful traffic-safety patterns that can support better monitoring, prevention planning, and a future Power BI dashboard.
 
 Key questions answered:
 
-Which accident severity level is most common?
+. Which accident severity level is most common?
 
-When do accidents happen most often?
+. When do accidents happen most often?
 
-Which weather conditions are associated with higher-severity accidents?
+. Which weather conditions are associated with higher-severity accidents?
 
-Which road features are present during accidents?
+. Which road features are present during accidents?
 
-Which cities and locations are accident hotspots?
+. Which cities and locations are accident hotspots?
 
-Dataset
+# Dataset
 
 Dataset: US Accidents (2016–2023)
 
@@ -46,14 +47,14 @@ Seaborn
 
 Jupyter Notebook
 
-Project Files
+# Project Files
 
 ├── EDA_US_Accidents.ipynb                 # Complete data-cleaning and EDA notebook
 ├── US_Accidents_EDA_Presentation.pptx     # Presentation of key findings
 ├── README.md                               # Project documentation
 └── US_Accidents_March23_Cleaned.csv        # Generated after running the notebook (not uploaded)
 
-Data Cleaning Steps
+# Data Cleaning Steps
 
 The notebook performs the following preparation steps:
 
@@ -89,7 +90,7 @@ Saves the cleaned dataset as US_Accidents_March23_Cleaned.csv.
 
 Exploratory Analysis
 
-1. Severity Analysis
+# 1. Severity Analysis
 
 Severity
 
@@ -113,7 +114,7 @@ Accident Count
 
 Insight: Severity 2 is the most common accident level, representing approximately 79.7% of the dataset.
 
-2. Time Analysis
+# 2. Time Analysis
 
 Accident counts are analyzed by:
 
@@ -127,7 +128,7 @@ Hour of day
 
 This analysis helps identify long-term trends, seasonal patterns, weekday variation, and peak accident hours.
 
-3. Weather and Severity Analysis
+# 3. Weather and Severity Analysis
 
 The notebook analyzes:
 
@@ -141,7 +142,7 @@ Spearman correlation between weather variables and severity
 
 High severity is defined as Severity 3 or Severity 4.
 
-4. Road Feature Analysis
+# 4. Road Feature Analysis
 
 Road features analyzed include:
 
@@ -177,7 +178,7 @@ Junctions are present in 7.4% of accident records.
 
 Junctions show a high-severity accident rate of approximately 26.8%.
 
-5. Location and Hotspot Analysis
+# 5. Location and Hotspot Analysis
 
 The project identifies:
 
@@ -209,8 +210,7 @@ How to Run the Project
 
 Clone this repository:
 
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+
 
 Install the required libraries:
 
@@ -238,7 +238,7 @@ Add machine learning to predict accident severity.
 
 Use external traffic-volume data for deeper causal analysis.
 
-Author
+# Author
 
 Dipankar Pal
 Aspiring Data Analyst | Power BI Developer
